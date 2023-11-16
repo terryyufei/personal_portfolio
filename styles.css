@@ -213,3 +213,33 @@ footer {
 }
 
 
+
+/* Media Queries for Responsive Design */
+
+/* Small screens (phones) */
+@media only screen and (max-width: 600px) {
+    #contact h1 {
+        font-size: 2rem;
+    }
+
+    #contact p {
+        font-size: 1.2rem;
+    }
+
+    #contact ul {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #contact h1 {
+        font-size: 2.5rem;
+    }
+
+    #contact p {
+        font-size: 1.4rem;
+    }
+}
